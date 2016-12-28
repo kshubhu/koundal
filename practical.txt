@@ -1,0 +1,108 @@
+var a=5; 
+
+undefined
+ 
+var b=5;
+
+undefined
+
+a=b
+
+5
+
+var c=a+b
+
+undefined
+
+b=a
+
+5
+ 
+var d
+
+undefined
+
+d=a+b;
+
+10
+
+c=a+b;
+
+10
+
+d=a+b+c;
+
+20
+var name="shubham "
+
+undefined
+
+var number=007
+
+undefined
+
+"shubham"+007;
+
+"shubham7"
+ 
+var n
+
+undefined
+
+n="ram";
+
+"ram"
+"ram"+6+5;
+
+"ram65"
+
+45+82+56+"shyam"
+
+"183shyam"
+
+var boolean=true
+
+undefined
+
+var y=boolean;
+
+undefined
+
+
+y=boolean
+
+true
+
+
+*****
+var student={fristname:"shubham",lastname:"koundal", age:20, course:"GNIIT"};
+
+
+undefined
+
+student.lastname="kumar"
+
+"kumar"
+
+delete student.lastname;
+
+true
+
+student
+
+Object {fristname: "shubham", age: 20, course: "GNIIT"}
+
+student.lastname="sharma"
+
+"sharma"
+
+student
+Object {fristname: "shubham", age: 20, course: "GNIIT", lastname: "sharma"}
+
+
+student.age=25
+
+
+student
+
+Object {fristname: "shubham", age: 25, course: "GNIIT", lastname: "sharma"}
